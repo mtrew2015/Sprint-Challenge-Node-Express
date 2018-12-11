@@ -21,7 +21,7 @@ router.get('/:id', (req, res) => {
     .catch(err => { res.status(500).json({ error: `Error retrieving your project with the id of ${id} ` }) })
 })
 
-//edit
+
 
 //retrieves actions for projects with given ID
 router.get('/:id/actions', (req, res) => {
